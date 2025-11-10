@@ -16,6 +16,10 @@ a {
   color: black;
 }
 
+body {
+  font-family: Ggsans, sans-serif;
+}
+
 header {
   background-image: url("../img/jumbo.png");
   background-size: cover;
@@ -26,7 +30,7 @@ header {
   align-items: center;
   padding-top: 20px;
   font-weight: 600;
-  font-family: Ggsans, sans-serif;
+  color: #fff;
 }
 
 /* navbar */
@@ -59,18 +63,27 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: solid gray 2px; */
   width: 100%;
   height: 490px;
 }
 
 .hello-box {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* border: dashed black 2px; */
   width: 50%;
   height: 80%;
+}
+
+.hello-box h1 {
+  padding: 30px;
+  font-size: 45px;
+}
+
+.hello-box p {
+  font-size: 18px;
+  padding-bottom: 100px;
 }
 
 .hello-box-2 {
