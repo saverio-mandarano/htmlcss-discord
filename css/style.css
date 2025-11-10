@@ -164,7 +164,7 @@ header .hello-box {
 /* items */
 
 .item-1 {
-  background-image: url(../img/item1.svg);
+  background-image: url("../img/item1.svg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 100%;
@@ -172,7 +172,7 @@ header .hello-box {
 }
 
 .item-2 {
-  background-image: url(../img/item2.svg);
+  background-image: url("../img/item2.svg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 100%;
@@ -180,7 +180,7 @@ header .hello-box {
 }
 
 .item-3 {
-  background-image: url(../img/item3.svg);
+  background-image: url("../img/item3.svg");
   background-size: contain;
   background-repeat: no-repeat;
   height: 100%;
@@ -188,11 +188,19 @@ header .hello-box {
 }
 
 .item-4 {
-  background-image: url(../img/item4-big.svg);
+  background-image: url("../img/item4-big.svg");
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
   flex: 8;
+}
+
+.logo-stars {
+  background-image: url("../img/stars.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 60%;
+  flex: 1;
 }
 
 /* flex */
