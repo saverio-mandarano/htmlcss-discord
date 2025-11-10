@@ -129,9 +129,7 @@ header .hello-box {
 
 .box-img {
   height: 100%;
-  background-image: url(../img/item1.svg);
-  background-size: contain;
-  background-repeat: no-repeat;
+
   flex: 7;
 }
 
@@ -147,6 +145,19 @@ header .hello-box {
   padding-bottom: 40px;
 }
 
+/* items */
+
+.item-1 {
+  background-image: url(../img/item1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.item-3 {
+  background-image: url(../img/item3.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 /* 
 .hello-box-2 {
   display: flex;
