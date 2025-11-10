@@ -127,6 +127,15 @@ header .hello-box {
   height: 80%;
 }
 
+.r-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 80%;
+}
+
 .box-txt {
   flex: 5;
 }
@@ -164,7 +173,8 @@ header .hello-box {
   height: 100%;
   flex: 7;
 }
-/* 
+
+/* da verificare */
 .hello-box-2 {
   display: flex;
   justify-content: center;
@@ -206,7 +216,7 @@ header .hello-box {
 .brd-black {
   border: dashed black 2px;
 }
- */
+/* fino a qui */
 
 /* flex */
 .flex-2 {
