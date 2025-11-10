@@ -265,32 +265,29 @@ header .hello-box {
   background-color: rgb(127, 255, 212);
 }
 
+.cl-white {
+  color: #fff;
+}
+
 /* footer */
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
-  padding: 10px 10px 0 10px;
+  align-items: center;
 }
 
 .bar {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  width: 50%;
-  min-height: 50px;
+  align-items: flex-start;
+  width: 80%;
+  min-height: 100px;
 }
 
 .logo {
-  border: dashed black 2px;
-  background-color: pink;
-}
-
-.bottone {
-  border: dashed black 2px;
-  background-color: pink;
-}
-
-.cl-white {
-  color: #fff;
+  background-image: url("../img/logo.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
