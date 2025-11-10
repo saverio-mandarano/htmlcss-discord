@@ -323,10 +323,25 @@ button.registrati {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
+  gap: 80px;
 }
 
 ul li:first-child {
   color: rgb(41, 50, 170);
   font-weight: bold;
   font-size: 15px;
+}
+
+.titolo-sezione > p {
+  font-size: 20px;
+  padding-top: 5px;
+  color: rgb(41, 50, 170);
+  font-weight: bold;
+}
+
+.contatti {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
