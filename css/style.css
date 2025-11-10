@@ -76,14 +76,17 @@ header {
   height: 80%;
 }
 
-.hello-box h1 {
+.hello-text {
+}
+
+.hello-text h1 {
   padding: 30px;
   font-size: 45px;
 }
 
-.hello-box p {
+.hello-text p {
   font-size: 18px;
-  padding-bottom: 100px;
+  padding-bottom: 150px;
 }
 
 .hello-box-2 {
