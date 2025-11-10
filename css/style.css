@@ -80,21 +80,23 @@ button {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
 
   /* alla fine eliminare width ed height */
   width: 50%;
   height: 80%;
 }
 
-/* .hello-text {} */
+.hello-text {
+  align-items: center;
+  text-align: center;
+}
 
 .hello-buttons {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 25px;
 }
 
 .hello-text h1 {
