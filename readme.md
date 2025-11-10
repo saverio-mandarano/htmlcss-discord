@@ -2,4 +2,4 @@
 
 **Repo:** `htmlcss-discord`
 
-![]()
+![anteprima sito discord](/img/screenshot-anteprima.jpg.png)
