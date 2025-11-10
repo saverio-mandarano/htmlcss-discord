@@ -286,8 +286,7 @@ footer {
   min-height: 100px;
 }
 
-.logo {
-  background-image: url("../img/logo.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
+button.registrati {
+  margin-top: 15px;
+  font-size: 15px;
 }
