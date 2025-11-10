@@ -286,7 +286,10 @@ footer {
   min-height: 100px;
 }
 
-button.registrati {
+.logo {
   margin-top: 15px;
+}
+button.registrati {
+  margin-top: 10px;
   font-size: 15px;
 }
