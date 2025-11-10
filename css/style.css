@@ -6,12 +6,15 @@
   box-sizing: border-box;
 }
 
+/* Gnerics */
 a {
   text-decoration: none;
   color: #fff;
 }
 
-/*header*/
+.cl-black a {
+  color: black;
+}
 
 header {
   background-image: url("../img/jumbo.png");
@@ -26,13 +29,12 @@ header {
   font-family: Ggsans, sans-serif;
 }
 
+/* navbar */
 .navbar-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 80%;
-  width: 1000px;
-  height: 40px;
+  width: 85%;
   background-color: rgb(37, 94, 233);
 }
 
@@ -48,15 +50,18 @@ header {
   flex-grow: 1;
   flex-shrink: 1;
 }
-.cl-white {
-  color: azure;
-}
 
 .navbar-login {
-  text-align: right;
-  padding: 10px;
+  text-align: center;
   flex-grow: 1;
   flex-shrink: 1;
+  border: 2px solid #fff;
+  width: 1px;
+  height: 25px;
+  border-radius: 30px;
+  background-color: #fff;
+  /* padding: 3px; */
+  /* margin: 100px; */
 }
 
 /* hello */
@@ -176,9 +181,6 @@ header {
 
 .bg-celeste-chiaro {
   background-color: rgb(127, 255, 212);
-}
-.cl-black a {
-  color: black;
 }
 
 /* footer */
