@@ -72,11 +72,17 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
+
+  /* alla fine eliminare width ed height */
   width: 50%;
   height: 80%;
 }
 
 .hello-text {
+}
+
+.hello-buttons {
 }
 
 .hello-text h1 {
