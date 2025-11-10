@@ -332,7 +332,7 @@ ul li:first-child {
   font-size: 15px;
 }
 
-.titolo-sezione > p {
+.descrizione-sezione-contatti > p {
   font-size: 20px;
   padding-top: 5px;
   color: rgb(41, 50, 170);
@@ -344,4 +344,17 @@ ul li:first-child {
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+}
+
+/* da qui per modificare il bottone scegli-lingua */
+.language > button {
+}
+
+.social-networks {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
 }
