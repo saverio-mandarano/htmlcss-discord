@@ -12,6 +12,16 @@ a {
   color: #fff;
 }
 
+ul {
+  list-style-type: none;
+  color: #fff;
+  font-size: 10px;
+}
+
+li {
+  padding: 5px;
+}
+
 .cl-black a {
   color: black;
 }
@@ -307,3 +317,16 @@ button.registrati {
 }
 
 /* info-section */
+
+.info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+ul li:first-child {
+  color: rgb(41, 50, 170);
+  font-weight: bold;
+  font-size: 15px;
+}
