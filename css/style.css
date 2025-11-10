@@ -193,7 +193,7 @@ header .hello-box {
   background-size: contain;
   background-repeat: no-repeat;
   width: 70%;
-  flex: 20;
+  flex: 7;
 }
 
 .logo-stars {
@@ -201,7 +201,7 @@ header .hello-box {
   background-size: contain;
   background-repeat: no-repeat;
   width: 60%;
-  flex: 15;
+  flex: 1;
 }
 
 .logo-stars h2 {
@@ -210,7 +210,7 @@ header .hello-box {
 
 /* flex */
 .flex-1 {
-  flex: 1;
+  flex: 2;
 }
 .flex-4 {
   flex: 4;
