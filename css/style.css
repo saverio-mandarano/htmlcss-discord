@@ -265,6 +265,9 @@ header .hello-box {
   background-color: rgb(127, 255, 212);
 }
 
+.bg-blue {
+  background-color: rgb(41, 50, 170);
+}
 .cl-white {
   color: #fff;
 }
@@ -284,6 +287,12 @@ footer {
   align-items: flex-start;
   width: 80%;
   min-height: 100px;
+}
+
+.line {
+  width: 77%;
+  height: 2px;
+  margin-top: 20px;
 }
 
 .logo {
