@@ -50,6 +50,11 @@ footer {
   align-items: center;
 }
 
+h5 {
+  font-size: 11px;
+  color: #fff;
+}
+
 /* buttons */
 button {
   padding: 10px;
@@ -346,8 +351,14 @@ ul li:first-child {
   align-items: flex-start;
 }
 
-/* da qui per modificare il bottone scegli-lingua */
-.language > button {
+.language {
+  margin-top: 15px;
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
 }
 
 .social-networks {
