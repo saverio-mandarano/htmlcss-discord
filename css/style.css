@@ -38,30 +38,20 @@ header {
   background-color: rgb(37, 94, 233);
 }
 
-.navbar-logo {
-  flex-grow: 1;
-  flex-shrink: 1;
-}
-
 .navbar-link {
   display: flex;
   justify-content: center;
   gap: 20px;
-  flex-grow: 1;
-  flex-shrink: 1;
 }
 
 .navbar-login {
   text-align: center;
-  flex-grow: 1;
-  flex-shrink: 1;
   border: 2px solid #fff;
-  width: 1px;
-  height: 25px;
+  width: 70px;
+  height: 30px;
   border-radius: 30px;
   background-color: #fff;
-  /* padding: 3px; */
-  /* margin: 100px; */
+  padding: 3px;
 }
 
 /* hello */
