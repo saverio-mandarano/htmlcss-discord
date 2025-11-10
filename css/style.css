@@ -85,16 +85,6 @@ header .hello-box {
   justify-content: center;
 }
 
-.hello-box {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-
-  /* alla fine eliminare width ed height */
-  width: 50%;
-  height: 80%;
-}
-
 .hello-text {
   align-items: center;
   text-align: center;
@@ -116,6 +106,25 @@ header .hello-box {
 .hello-text p {
   font-size: 18px;
   padding-bottom: 50px;
+}
+
+/* box-img e box-txt */
+
+.hello-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  /* alla fine eliminare width ed height */
+  width: 50%;
+  height: 80%;
+}
+
+.box-img {
+  background-image: url(../img/item1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .hello-box-2 {
