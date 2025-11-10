@@ -13,12 +13,13 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  /* padding: 10px; */
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
 }
 
-.wrapper {
+.navbar-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
