@@ -33,6 +33,13 @@ header {
   color: #fff;
 }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /* buttons */
 button {
   padding: 10px;
@@ -272,13 +279,7 @@ header .hello-box {
   color: #fff;
 }
 
-/* footer */
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+/* bar-section */
 
 .bar {
   display: flex;
@@ -289,12 +290,6 @@ footer {
   min-height: 100px;
 }
 
-.line {
-  width: 77%;
-  height: 2px;
-  margin-top: 20px;
-}
-
 .logo {
   margin-top: 15px;
 }
@@ -302,3 +297,13 @@ button.registrati {
   margin-top: 10px;
   font-size: 15px;
 }
+
+/* line-section */
+
+.line {
+  width: 77%;
+  height: 2px;
+  margin-top: 20px;
+}
+
+/* info-section */
