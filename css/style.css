@@ -127,12 +127,6 @@ header .hello-box {
   height: 80%;
 }
 
-.box-img {
-  height: 100%;
-
-  flex: 7;
-}
-
 .box-txt {
   flex: 5;
 }
@@ -151,12 +145,24 @@ header .hello-box {
   background-image: url(../img/item1.svg);
   background-size: contain;
   background-repeat: no-repeat;
+  height: 100%;
+  flex: 7;
+}
+
+.item-2 {
+  background-image: url(../img/item2.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  flex: 7;
 }
 
 .item-3 {
   background-image: url(../img/item3.svg);
   background-size: contain;
   background-repeat: no-repeat;
+  height: 100%;
+  flex: 7;
 }
 /* 
 .hello-box-2 {
