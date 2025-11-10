@@ -358,7 +358,7 @@ ul li:first-child {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
 }
 
 .social-networks {
@@ -367,5 +367,9 @@ ul li:first-child {
   justify-content: flex-start;
   align-items: center;
   gap: 10px;
-  margin-top: 15px;
+  margin-top: 15px;1
+}
+
+.triangle-down i { 
+  color: #fff;   
 }
